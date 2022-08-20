@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="components/style.css">
+    <script src="https://kit.fontawesome.com/eec24246ad.js" crossorigin="anonymous"></script>
+    <title>Sprawdź swoje akwarium.</title>
+</head>
+<body>
+    <main>
+        <div class="settings">
+            <img src="img/trash-can-solid.svg" alt="trash" class="settings__trash">
+        </div>
+        <h1 class="title">Wprowadź dane</h1>
+        <div class="box">
+            <div class="box__input">
+                <h6>NO2</h6>
+                <input type="number" class="box__inputStyle" placeholder="Wprowadź wartość (NO2)" id="no2Value">
+            </div>
+            <div class="box__input">
+                <h6>NO3</h6>
+                <input type="number" class="box__inputStyle" placeholder="Wprowadź wartość (NO3)" id="no3Value">
+            </div>
+            <div class="box__input">
+                <h6>FE</h6>
+                <input type="number" class="box__inputStyle" placeholder="Wprowadź wartość (FE)" id="feValue">
+            </div>
+            <div class="box__input">
+                <h6>PO4</h6>
+                <input type="number" class="box__inputStyle" placeholder="Wprowadź wartość (PO4)" id="po4Value">
+            </div>
+            <div class="box__input">
+                <h6>K</h6>
+                <input type="number" class="box__inputStyle" placeholder="Wprowadź wartość (K)" id="kValue">
+            </div>
+            <div class="box__input">
+                <h6>Ca</h6>
+                <input type="number" class="box__inputStyle" placeholder="Wprowadź wartość (CA)" id="caValue">
+            </div>
+            <div class="box__input">
+                <h6>Mg</h6>
+                <input type="number" class="box__inputStyle" placeholder="Wprowadź wartość (MG)" id="mgValue">
+            </div>
+            <div class="box__input">
+                <h6>PH</h6>
+                <input type="number" class="box__inputStyle" placeholder="Wprowadź wartość (PH)" id="phValue">
+            </div>
+            <div class="box__input">
+                <h6>NH4</h6>
+                <input type="number" class="box__inputStyle" placeholder="Wprowadź wartość (NH4)" id="nh4Value">
+            </div>
+        </div>
+        <div class="button">
+            <button class="button__btn">Zatwierdź</button>
+        </div>
+        <div class="newDates">
+            <table class="newDates__table">
+                <tr>
+                    <th class="newDates__th">Data</th>
+                    <th>NO2</th>
+                    <th>NO3</th>
+                    <th>FE</th>
+                    <th>PO4</th>
+                    <th>K</th>
+                    <th>CA</th>
+                    <th>MG</th>
+                    <th>PH</th>
+                    <th>NH4</th>
+                </tr>
+            </table>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
